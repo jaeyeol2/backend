@@ -5,7 +5,7 @@ cors = CORS(app, resources={r"/*":{"origins": "*"}})
 
 @app.route("/hello")
 def hello():
-    result = {"code" : 200, "message":"hello test4"}
+    result = {"code" : 200, "message":"hello test5"}
     return result
 
 if __name__ == "__main__":
